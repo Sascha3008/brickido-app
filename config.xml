@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-    <widget xmlns   = "http://www.w3.org/ns/widgets"
-        xmlns:gap   = "http://phonegap.com/ns/1.0"
-        id          = "com.phonegap.brickidomobile"
-        versionCode = "10" 
-        version     = "1.0.0" >
-
-    <!-- versionCode is optional and Android only -->
-
-    <name>Brickido Mobile</name>
-
-    <description>
-		Scan LPC's and do Mobile Stuff with Brickido and your Phone!
-    </description>
-
-    <author href="https://www.brickido.com" email="support@brickido.com">
-       Sascha Laugwitz & Christoph Helfenbein
-    </author>
+    <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.brickidomobile" version="1.0.0">
+    
+	<name>BrickidoMobile</name>
+    <description>Scan LPC's and do Mobile Stuff with Brickido and your Phone!</description>
+    <author href="https://www.brickido.com" email="support@brickido.com">Sascha Laugwitz & Christoph Helfenbein</author>
+	
+	<feature name="http://api.phonegap.com/1.0/battery" />
+    <feature name="http://api.phonegap.com/1.0/camera" />
+    <feature name="http://api.phonegap.com/1.0/contacts" />
+    <feature name="http://api.phonegap.com/1.0/file" />
+    <feature name="http://api.phonegap.com/1.0/geolocation" />
+    <feature name="http://api.phonegap.com/1.0/media" />
+    <feature name="http://api.phonegap.com/1.0/network" />
+    <feature name="http://api.phonegap.com/1.0/notification" />
+	
 	<gap:platform name="android" />
 	
 	<preference name="phonegap-version" value="3.1.0" /> 
 	<preference name="orienation" value="portrait" />
 	<preference name="fullscreen" value="false" />
-	
 	<preference name="android-minSdkVersion" value="10" />
-	
-	<feature name="http://api.phonegap.com/1.0/battery"/>
-    <feature name="http://api.phonegap.com/1.0/camera"/>
-    <feature name="http://api.phonegap.com/1.0/contacts"/>
-    <feature name="http://api.phonegap.com/1.0/file"/>
-    <feature name="http://api.phonegap.com/1.0/geolocation"/>
-    <feature name="http://api.phonegap.com/1.0/media"/>
-    <feature name="http://api.phonegap.com/1.0/network"/>
-    <feature name="http://api.phonegap.com/1.0/notification"/>
-	
-	
 	
 	<icon src="icons/market.png" />
 	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
@@ -41,7 +27,7 @@
 	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
 	
-	 <access origin="*" subdomains="true" />
+	 <access origin="*"/>
 
 
 </widget>
