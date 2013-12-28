@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.brickidomobile" version="1.0.0">
     
-	<name>Brickido®Mobile</name>
+	<name>Brickido®</name>
     <description>Scan LPCs and do Mobile Stuff with Brickido® and your Phone!</description>
     <author href="https://www.brickido.com" email="support@brickido.com">Sascha Laugwitz&Christoph Helfenbein</author>
 	
@@ -22,14 +22,14 @@
 	<preference name="fullscreen" value="false" />
 	<preference name="android-minSdkVersion" value="10" />
 	
-	<icon src="icon.png" />
-	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
-	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
-	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
-	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	<icon src="icon-t.png" />
+	<icon src="icons/android/ldpi-t.png" gap:platform="android" gap:density="ldpi" />
+	<icon src="icons/android/mdpi-t.png" gap:platform="android" gap:density="mdpi" />
+	<icon src="icons/android/hdpi-t.png" gap:platform="android" gap:density="hdpi" />
+	<icon src="icons/android/xhdpi-t.png" gap:platform="android" gap:density="xhdpi" />
 	
-	<icon src="icons/winphone/icon.png" gap:platform="winphone" width="173" height="173" />
-	<icon src="icons/winphone/tile.png" gap:platform="winphone" gap:role="background" />
+	<icon src="icons/winphone/icon-t.png" gap:platform="winphone" width="173" height="173" />
+	<icon src="icons/winphone/tile-t.png" gap:platform="winphone" gap:role="background" />
 	
 	<gap:splash src="splash.png" />
 	<gap:splash src="splash/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
