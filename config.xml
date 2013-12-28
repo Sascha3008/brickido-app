@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
     <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.phonegap.brickidomobile" version="1.0.0">
     
-	<name>BrickidoMobile</name>
-    <description>Scan LPCs and do Mobile Stuff with Brickido and your Phone!</description>
+	<name>Brickido®Mobile</name>
+    <description>Scan LPCs and do Mobile Stuff with Brickido® and your Phone!</description>
     <author href="https://www.brickido.com" email="support@brickido.com">Sascha Laugwitz&Christoph Helfenbein</author>
 	
 	<feature name="http://api.phonegap.com/1.0/battery" />
