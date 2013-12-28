@@ -16,9 +16,32 @@
     <author href="https://www.brickido.com" email="support@brickido.com">
        Sascha Laugwitz & Christoph Helfenbein
     </author>
+	<gap:platform name="android" />
+	
+	<preference name="phonegap-version" value="3.1.0" /> 
+	<preference name="orienation" value="portrait" />
+	<preference name="fullscreen" value="false" />
+	
+	<preference name="android-minSdkVersion" value="10" />
+	
+	<feature name="http://api.phonegap.com/1.0/battery"/>
+    <feature name="http://api.phonegap.com/1.0/camera"/>
+    <feature name="http://api.phonegap.com/1.0/contacts"/>
+    <feature name="http://api.phonegap.com/1.0/file"/>
+    <feature name="http://api.phonegap.com/1.0/geolocation"/>
+    <feature name="http://api.phonegap.com/1.0/media"/>
+    <feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/notification"/>
+	
+	
+	
 	<icon src="icons/market.png" />
 	<icon src="icons/android/ldpi.png" gap:platform="android" gap:density="ldpi" />
 	<icon src="icons/android/mdpi.png" gap:platform="android" gap:density="mdpi" />
 	<icon src="icons/android/hdpi.png" gap:platform="android" gap:density="hdpi" />
 	<icon src="icons/android/xhdpi.png" gap:platform="android" gap:density="xhdpi" />
+	
+	 <access origin="*" subdomains="true" />
+
+
 </widget>
